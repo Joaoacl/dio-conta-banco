@@ -54,5 +54,5 @@ javac ContaTerminal.java
 ```
 4. Execute:
 ```bash
-java ContaTerminal`
+java ContaTerminal
 ```
