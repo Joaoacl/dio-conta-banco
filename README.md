@@ -45,10 +45,14 @@ Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência �
 git clone https://github.com/Joaoacl/ContaBanco.git
 ```
 2. Navegue até a pasta do projeto:
+```bash
 cd ContaBanco/src
-
+```
 3. Compile o programa:
+```bash
 javac ContaTerminal.java
-
+```
 4. Execute:
-java ContaTerminal
+```bash
+java ContaTerminal`
+```
