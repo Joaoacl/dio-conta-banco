@@ -1,6 +1,6 @@
-# 💰 Projeto ContaBanco
+# 💰 Projeto Sistema Bancário Simples
 
-Este projeto é uma atividade prática do módulo de Sintaxe em Java, onde foi desenvolvido um programa simples que simula a criação de uma conta bancária, recebendo os dados do usuário via terminal.
+Este projeto é uma aplicação de console em Java que simula operações bancárias básicas como criação de contas, depósitos, saques, transferências e consultas. Foi desenvolvido com foco em praticar os fundamentos de programação orientada a objetos e interação com o usuário via terminal.
 
 ---
 
@@ -8,25 +8,23 @@ Este projeto é uma atividade prática do módulo de Sintaxe em Java, onde foi d
 
 Praticar os conceitos de:
 
-- Declaração de variáveis
+- Programação orientada a objetos (POO)
+- Declaração e uso de classes e métodos
 - Entrada de dados via `Scanner`
-- Utilização da função `main` com argumentos
-- Concatenar e exibir informações com `System.out.println`
+- Manipulação de listas com `ArrayList`
+- Controle de fluxo com `if`, `switch` e loops
 
 ---
 
-## 📌 Funcionalidade
+## 📌 Funcionalidades
 
-O programa solicita ao usuário as seguintes informações:
+O sistema permite:
 
-- Número da agência
-- Número da conta
-- Nome do cliente
-- Saldo inicial
-
-Após receber os dados, o sistema exibe a seguinte mensagem formatada:
-
-Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agência], conta [Número] e seu saldo [Saldo] já está disponível para saque.
+- Criar uma nova conta (informando nome e número da conta)
+- Depositar um valor em uma conta existente
+- Sacar um valor de uma conta (com verificação de saldo)
+- Transferir valores entre duas contas
+- Consultar os dados de uma conta (número, titular e saldo)
 
 ---
 
@@ -34,7 +32,7 @@ Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência �
 
 - Java 17+ (ou compatível)
 - IDE de sua escolha (VSCode, IntelliJ, Eclipse, etc.)
-- Terminal para entrada de dados
+- Terminal (para entrada e saída de dados)
 
 ---
 
@@ -50,9 +48,9 @@ cd ContaBanco/src
 ```
 3. Compile o programa:
 ```bash
-javac ContaTerminal.java
+javac Main.java
 ```
 4. Execute:
 ```bash
-java ContaTerminal
+java Main
 ```
